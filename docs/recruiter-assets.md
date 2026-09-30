@@ -14,6 +14,10 @@ Built Financial Risk & Volatility Monitor, a native SwiftUI iOS/macOS analytics 
 
 Native SwiftUI iOS/macOS financial risk dashboard powered by Python/FastAPI and GARCH modeling for SPY and QQQ, with explicit freshness and model evidence.
 
+## Recommended GitHub Topics
+
+`swiftui`, `ios`, `macos`, `python`, `fastapi`, `data-science`, `finance`, `garch`, `swift-charts`
+
 ## Short Demo Script
 
 1. Open Overview and switch SPY to QQQ to show symbol-aware KPI and chart updates.

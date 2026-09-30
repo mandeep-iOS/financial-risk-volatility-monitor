@@ -26,6 +26,10 @@ Risk metrics are often presented as disconnected model outputs. This project tur
 - Streamlit dashboard retained as a fallback and validation reference.
 - SwiftUI is the primary portfolio UI for iOS and macOS.
 
+## Preview
+
+![Overview](docs/media/FRM_Overview.png)
+
 ## Architecture
 
 ```text
@@ -73,6 +77,17 @@ npm run dev
 Open `http://127.0.0.1:5173`.
 
 Streamlit legacy/prototype fallback: `.venv/bin/streamlit run dashboard/app.py`.
+
+This project is currently designed for local execution; no hosted API/demo is provided yet.
+
+## Demo Walkthrough
+
+1. Start the FastAPI backend with `.venv/bin/python scripts/run_api.py`.
+2. Run the SwiftUI app from `ios-macos/FinancialRiskMonitor.xcodeproj` using the `FinancialRiskMonitorApp` scheme.
+3. Review the selected-asset Overview and freshness labels.
+4. Compare SPY versus QQQ across growth, volatility, and drawdown.
+5. Check the selected-symbol volatility Forecast and historical/example status.
+6. Review Model Evidence, including baseline versus GARCH results and diagnostics.
 
 ## API Examples
 
