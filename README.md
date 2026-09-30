@@ -40,7 +40,17 @@ Backend modules live under `src/risk_monitor/`. The primary UI lives under `ios-
 
 ## Screenshots
 
-The product has four approved screens: Overview, Compare, Forecast, and Model Evidence. See `docs/release-screenshots.md` for the capture checklist and recommended 1440 x 900 viewport.
+### Overview
+![Overview](docs/media/FRM_Overview.png)
+
+### Compare
+![Compare](docs/media/FRM_Compare.png)
+
+### Forecast
+![Forecast](docs/media/FRM_Forecast.png)
+
+### Model Evidence
+![Model Evidence](docs/media/FRM_Model-Evidence.png)
 
 ## Setup
 
