@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037362CC6FF2777203B9B0C6 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2A4ED9E6A78666D6485B16 /* OverviewView.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		1FAD135052E885C6C65AAD56 /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37BAF910DFCEE8E565893E2 /* CompareView.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		2C81133E6855E44DD7D905C9 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB89EEDCD24CFFD030C83DE4 /* AppModel.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		31DB32518217DDF3B4AC5097 /* OverviewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED0B0CEC0BD9FC5EB6517EA /* OverviewModels.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		3F8352E2DD6AB7EFA8543923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BA970FEEB75839BA3E9907 /* Foundation.framework */; };
+		56F1FB2E2BB1DCF2188415B4 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F30522EFFD3EF2699E500 /* APIModels.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		62C6D523353BF08936464BA0 /* RiskMonitorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6619E98008F5DE6C0CD1FBAA /* RiskMonitorAPI.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		68364E7E9E29319508D707DD /* FinancialRiskMonitorAppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700825575F5FE50F9E0C5E9 /* FinancialRiskMonitorAppMain.swift */; };
+		6DF58F405A476CC3078F0D8D /* EvidenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24E2B22587AA28799837C1 /* EvidenceView.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		73FF89AEAE65D1DD45492C45 /* FinancialRiskMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3485F1AE77AA5C3E53FA7E /* FinancialRiskMonitorApp.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		747AF35CD03A7964493AA5EC /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BA5575EBC5228BDC9E59AC /* APIError.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		802DD467403CFA3B55585DA8 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0B9D646070FB6C16EFBB00 /* ForecastView.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		8057E6C367E505249784D634 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD58D19DC32612423D816B /* AppEnvironment.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		A2273516672D25193A5E5BD7 /* EvidenceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD006C425A711BBA2CE7AA /* EvidenceModels.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		D84260DE26BF10F31CC287D8 /* CompareForecastModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B246EAC23C5DAE2E1DB560 /* CompareForecastModels.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		E69F1BF56BB6C63791A5A17E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C538B612981D97FE28BC201 /* ContentView.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+		FCD1ED357970B7F181C4F296 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A45CD7CCDC0896C6FDDDBC /* DesignSystem.swift */; settings = {COMPILER_FLAGS = "-D SWIFT_PACKAGE"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B0B9D646070FB6C16EFBB00 /* ForecastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForecastView.swift; path = Sources/FinancialRiskMonitorCore/ForecastView.swift; sourceTree = "<group>"; };
+		4ED0B0CEC0BD9FC5EB6517EA /* OverviewModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverviewModels.swift; path = Sources/FinancialRiskMonitorCore/OverviewModels.swift; sourceTree = "<group>"; };
+		620F30522EFFD3EF2699E500 /* APIModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIModels.swift; path = Sources/FinancialRiskMonitorCore/APIModels.swift; sourceTree = "<group>"; };
+		6619E98008F5DE6C0CD1FBAA /* RiskMonitorAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RiskMonitorAPI.swift; path = Sources/FinancialRiskMonitorCore/RiskMonitorAPI.swift; sourceTree = "<group>"; };
+		6D3485F1AE77AA5C3E53FA7E /* FinancialRiskMonitorApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FinancialRiskMonitorApp.swift; path = Sources/FinancialRiskMonitorCore/FinancialRiskMonitorApp.swift; sourceTree = "<group>"; };
+		6DBD006C425A711BBA2CE7AA /* EvidenceModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EvidenceModels.swift; path = Sources/FinancialRiskMonitorCore/EvidenceModels.swift; sourceTree = "<group>"; };
+		7F2A4ED9E6A78666D6485B16 /* OverviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverviewView.swift; path = Sources/FinancialRiskMonitorCore/OverviewView.swift; sourceTree = "<group>"; };
+		9C538B612981D97FE28BC201 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Sources/FinancialRiskMonitorCore/ContentView.swift; sourceTree = "<group>"; };
+		A1A45CD7CCDC0896C6FDDDBC /* DesignSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignSystem.swift; path = Sources/FinancialRiskMonitorCore/DesignSystem.swift; sourceTree = "<group>"; };
+		A37BAF910DFCEE8E565893E2 /* CompareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompareView.swift; path = Sources/FinancialRiskMonitorCore/CompareView.swift; sourceTree = "<group>"; };
+		B3B246EAC23C5DAE2E1DB560 /* CompareForecastModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompareForecastModels.swift; path = Sources/FinancialRiskMonitorCore/CompareForecastModels.swift; sourceTree = "<group>"; };
+		B9FD58D19DC32612423D816B /* AppEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppEnvironment.swift; path = Sources/FinancialRiskMonitorCore/AppEnvironment.swift; sourceTree = "<group>"; };
+		BB89EEDCD24CFFD030C83DE4 /* AppModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppModel.swift; path = Sources/FinancialRiskMonitorCore/AppModel.swift; sourceTree = "<group>"; };
+		CA95F6FD7BD43D055E3E83A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
+		D3BA970FEEB75839BA3E9907 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E0783FCFA4DA7359EB974807 /* FinancialRiskMonitorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialRiskMonitorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BA5575EBC5228BDC9E59AC /* APIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIError.swift; path = Sources/FinancialRiskMonitorCore/APIError.swift; sourceTree = "<group>"; };
+		EC24E2B22587AA28799837C1 /* EvidenceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EvidenceView.swift; path = Sources/FinancialRiskMonitorCore/EvidenceView.swift; sourceTree = "<group>"; };
+		F700825575F5FE50F9E0C5E9 /* FinancialRiskMonitorAppMain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FinancialRiskMonitorAppMain.swift; path = App/FinancialRiskMonitorAppMain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA06C25D8FB5F62341399B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8352E2DD6AB7EFA8543923 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EF24C760FF43101D39D3CDA /* FinancialRiskMonitorApp */ = {
+			isa = PBXGroup;
+			children = (
+				F700825575F5FE50F9E0C5E9 /* FinancialRiskMonitorAppMain.swift */,
+				CA95F6FD7BD43D055E3E83A2 /* Info.plist */,
+			);
+			name = FinancialRiskMonitorApp;
+			sourceTree = "<group>";
+		};
+		39787847B9A15F1D47688CE7 /* FinancialRiskMonitorCore */ = {
+			isa = PBXGroup;
+			children = (
+				E4BA5575EBC5228BDC9E59AC /* APIError.swift */,
+				620F30522EFFD3EF2699E500 /* APIModels.swift */,
+				B9FD58D19DC32612423D816B /* AppEnvironment.swift */,
+				BB89EEDCD24CFFD030C83DE4 /* AppModel.swift */,
+				B3B246EAC23C5DAE2E1DB560 /* CompareForecastModels.swift */,
+				A37BAF910DFCEE8E565893E2 /* CompareView.swift */,
+				9C538B612981D97FE28BC201 /* ContentView.swift */,
+				A1A45CD7CCDC0896C6FDDDBC /* DesignSystem.swift */,
+				6DBD006C425A711BBA2CE7AA /* EvidenceModels.swift */,
+				EC24E2B22587AA28799837C1 /* EvidenceView.swift */,
+				6D3485F1AE77AA5C3E53FA7E /* FinancialRiskMonitorApp.swift */,
+				0B0B9D646070FB6C16EFBB00 /* ForecastView.swift */,
+				4ED0B0CEC0BD9FC5EB6517EA /* OverviewModels.swift */,
+				7F2A4ED9E6A78666D6485B16 /* OverviewView.swift */,
+				6619E98008F5DE6C0CD1FBAA /* RiskMonitorAPI.swift */,
+			);
+			name = FinancialRiskMonitorCore;
+			sourceTree = "<group>";
+		};
+		864DCE553FBC82970C63EC53 = {
+			isa = PBXGroup;
+			children = (
+				BA41D9E5C9CDC726425FE19A /* Products */,
+				C2A1EBD4C8D586AD7B941307 /* Frameworks */,
+				1EF24C760FF43101D39D3CDA /* FinancialRiskMonitorApp */,
+				39787847B9A15F1D47688CE7 /* FinancialRiskMonitorCore */,
+			);
+			sourceTree = "<group>";
+		};
+		BA41D9E5C9CDC726425FE19A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0783FCFA4DA7359EB974807 /* FinancialRiskMonitorApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A1EBD4C8D586AD7B941307 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB04147FE4BDA2A15B16A8D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB04147FE4BDA2A15B16A8D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D3BA970FEEB75839BA3E9907 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		766AB2D3A07E812B83704816 /* FinancialRiskMonitorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B802EE80AFC7F6A61176EDC /* Build configuration list for PBXNativeTarget "FinancialRiskMonitorApp" */;
+			buildPhases = (
+				D0DC8A6CCBAB29349FF1C6F6 /* Sources */,
+				BA06C25D8FB5F62341399B40 /* Frameworks */,
+				37E21CEA469557AC2EEE33BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinancialRiskMonitorApp;
+			productName = FinancialRiskMonitorApp;
+			productReference = E0783FCFA4DA7359EB974807 /* FinancialRiskMonitorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8369536D6E7CC1FDD33E594C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = A552060DF552A4EE3661B93B /* Build configuration list for PBXProject "FinancialRiskMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 864DCE553FBC82970C63EC53;
+			productRefGroup = BA41D9E5C9CDC726425FE19A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				766AB2D3A07E812B83704816 /* FinancialRiskMonitorApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E21CEA469557AC2EEE33BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DC8A6CCBAB29349FF1C6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68364E7E9E29319508D707DD /* FinancialRiskMonitorAppMain.swift in Sources */,
+				747AF35CD03A7964493AA5EC /* APIError.swift in Sources */,
+				56F1FB2E2BB1DCF2188415B4 /* APIModels.swift in Sources */,
+				8057E6C367E505249784D634 /* AppEnvironment.swift in Sources */,
+				2C81133E6855E44DD7D905C9 /* AppModel.swift in Sources */,
+				D84260DE26BF10F31CC287D8 /* CompareForecastModels.swift in Sources */,
+				1FAD135052E885C6C65AAD56 /* CompareView.swift in Sources */,
+				E69F1BF56BB6C63791A5A17E /* ContentView.swift in Sources */,
+				FCD1ED357970B7F181C4F296 /* DesignSystem.swift in Sources */,
+				A2273516672D25193A5E5BD7 /* EvidenceModels.swift in Sources */,
+				6DF58F405A476CC3078F0D8D /* EvidenceView.swift in Sources */,
+				73FF89AEAE65D1DD45492C45 /* FinancialRiskMonitorApp.swift in Sources */,
+				802DD467403CFA3B55585DA8 /* ForecastView.swift in Sources */,
+				31DB32518217DDF3B4AC5097 /* OverviewModels.swift in Sources */,
+				037362CC6FF2777203B9B0C6 /* OverviewView.swift in Sources */,
+				62C6D523353BF08936464BA0 /* RiskMonitorAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D1E31705974CB4FD58DDC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.financialriskmonitor.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B4950328D499162B55576E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5A55AC663D514ADFCAD25A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E419CECEC117828BF43E98BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.financialriskmonitor.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B802EE80AFC7F6A61176EDC /* Build configuration list for PBXNativeTarget "FinancialRiskMonitorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1E31705974CB4FD58DDC4F /* Release */,
+				E419CECEC117828BF43E98BF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A552060DF552A4EE3661B93B /* Build configuration list for PBXProject "FinancialRiskMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4950328D499162B55576E6 /* Debug */,
+				5A55AC663D514ADFCAD25A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8369536D6E7CC1FDD33E594C /* Project object */;
+}
