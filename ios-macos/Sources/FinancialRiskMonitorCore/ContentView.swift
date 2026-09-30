@@ -56,9 +56,6 @@ public struct ContentView: View {
                     Picker("Asset", selection: $selectedSymbol) { ForEach(model.symbols) { Text($0.symbol).tag($0.symbol) } }.pickerStyle(.menu).frame(width: 150)
                 }
                 Text("Prices and models use the latest available project artifacts • Selected asset: \(selectedSymbol)").font(.caption).foregroundStyle(DashboardTheme.muted)
-                Text("Build: Compare schema fix")
-                    .font(.caption2.weight(.semibold))
-                    .foregroundStyle(DashboardTheme.primary)
                 if let error = model.errorMessage {
                     DashboardCard {
                         VStack(alignment: .leading, spacing: 8) {

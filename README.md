@@ -43,7 +43,8 @@ Backend modules live under `src/risk_monitor/`. The primary UI lives under `ios-
 Requirements: Python 3.11, Xcode 27 or newer, and macOS for the native app. Node.js/npm are only needed for the optional React reference.
 
 ```bash
-cd Data_Science_Lab_Project
+git clone https://github.com/mandeep-iOS/financial-risk-volatility-monitor.git
+cd financial-risk-volatility-monitor
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip setuptools wheel
