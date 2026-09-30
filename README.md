@@ -38,20 +38,6 @@ Nasdaq historical snapshot -> SQLite store + metadata artifacts
 
 Backend modules live under `src/risk_monitor/`. The primary UI lives under `ios-macos/`. React under `frontend/` is an optional web reference/fallback. Streamlit under `dashboard/app.py` is a legacy/prototype fallback.
 
-## Screenshots
-
-### Overview
-![Overview](docs/media/FRM_Overview.png)
-
-### Compare
-![Compare](docs/media/FRM_Compare.png)
-
-### Forecast
-![Forecast](docs/media/FRM_Forecast.png)
-
-### Model Evidence
-![Model Evidence](docs/media/FRM_Model-Evidence.png)
-
 ## Setup
 
 Requirements: Python 3.11, Xcode 27 or newer, and macOS for the native app. Node.js/npm are only needed for the optional React reference.
@@ -128,3 +114,17 @@ The checked-in outputs are a historical example. Run the refresh workflow in `do
 - `docs/dashboard.md` - product behavior and refresh workflow.
 - `docs/api.md` - local API contract.
 - `docs/recruiter-assets.md` - résumé, LinkedIn, GitHub, and demo copy.
+
+## Screenshots
+
+### Overview
+![Overview](docs/media/FRM_Overview.png)
+
+### Compare
+![Compare](docs/media/FRM_Compare.png)
+
+### Forecast
+![Forecast](docs/media/FRM_Forecast.png)
+
+### Model Evidence
+![Model Evidence](docs/media/FRM_Model-Evidence.png)
